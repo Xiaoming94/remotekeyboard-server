@@ -1,0 +1,33 @@
+# GitIgnore file for Remotekeyboard application server.
+# This is basically a Intellij Project with both Erlang and Java code
+
+# build Application Files
+
+*.apk
+*.ap_
+
+# Java Classes
+
+*.class
+
+# generated files
+
+bin/
+gen/
+
+
+local.properties
+
+# Intellij Files
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Gradle
+
+.gradletasknamecache
+.gradle/
+build/
+bin/
