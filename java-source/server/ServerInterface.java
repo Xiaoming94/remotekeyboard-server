@@ -5,7 +5,6 @@ package server;
  */
 public interface ServerInterface {
     void startServer();
-    void handleClientRequest();
-    char getRequestCharacter();
-    void parseCharacterToKeypress(char arg);
+    char handleClientRequest();
+    void parseCharacterToKeypress(char key);
 }
