@@ -31,3 +31,7 @@ local.properties
 .gradle/
 build/
 bin/
+
+# Erlang Files
+
+*.beam
